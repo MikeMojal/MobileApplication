@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diary_app</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="PD">Pocket Diary</string>
+    <string name="please">Please input  your password</string>
+    <string name="log">LOG-IN</string>
+    <string name="def">Default password is 000</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="add">ADD</string>
+    <string name="edit">Edit</string>
+    <string name="search">SEARCH</string>
+    <string name="title_activity_register_pass">RegisterPass</string>
+    <string name="reg">REGISTER</string>
+    <string name="regs">Please Register Here !</string>
+    <string name="dia">Pocket Diary</string>
+    <string name="reg2">REGISTER</string>
+    <string name="title_activity_myhome">MYHOME</string>
+    <string name="title_activity_note">Note</string>
+
+</resources>

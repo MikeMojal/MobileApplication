@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucu.diary_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ucu.diary_app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucu.diary_app.Homepage"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name="com.ucu.diary_app.RegisterPass"
+            android:label="@string/title_activity_register_pass" >
+        </activity>
+        <activity
+            android:name="com.ucu.diary_app.MYHOME"
+            android:label="@string/title_activity_myhome" >
+        </activity>
+        <activity
+            android:name="com.ucu.diary_app.Note"
+            android:label="@string/title_activity_note" >
+        </activity>
+    </application>
+
+</manifest>

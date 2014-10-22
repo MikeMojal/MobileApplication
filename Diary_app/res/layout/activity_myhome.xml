@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        android:background="@drawable/main"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSEARCH"
+        android:layout_toLeftOf="@+id/btnSEARCH"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnEDIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnDELETE"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnDELETE"
+        android:layout_marginTop="63dp"
+        android:text="EDIT" />
+
+    <Button
+        android:id="@+id/btnDELETE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="DELETE" />
+
+    <Button
+        android:id="@+id/btnADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEDIT"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnEDIT"
+        android:text="ADD" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnADD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="WHRITE YOUR NOTE HERE!"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edittype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnADD"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="write your text here" />
+
+    <Button
+        android:id="@+id/btnnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editSearch"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="SHOW ALL NOTE" />
+
+    <Button
+        android:id="@+id/btnSEARCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittype"
+        android:layout_below="@+id/edittype"
+        android:layout_marginTop="19dp"
+        android:text="SEARCH" />
+
+    <EditText
+        android:id="@+id/textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSEARCH"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/btnSEARCH"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="search by ID" />
+
+</RelativeLayout>
+
+</ScrollView>
