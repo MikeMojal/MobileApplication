@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Registration" >
+
+    <TextView
+        android:id="@+id/viewUserReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewRegister"
+        android:layout_marginTop="14dp"
+        android:text="@string/user" />
+
+    <EditText
+        android:id="@+id/editUserReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/viewUserReg"
+        android:layout_alignBottom="@+id/viewUserReg"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/viewPassReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewUserReg"
+        android:layout_below="@+id/editUserReg"
+        android:layout_marginTop="32dp"
+        android:text="@string/pas" />
+
+    <EditText
+        android:id="@+id/editPaaReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/viewPassReg"
+        android:layout_alignBottom="@+id/viewPassReg"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnRegReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/editPaaReg"
+        android:layout_below="@+id/editPaaReg"
+        android:layout_marginTop="35dp"
+        android:text="@string/reg" />
+
+    <Button
+        android:id="@+id/btnLogReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btnRegReg"
+        android:layout_below="@+id/btnRegReg"
+        android:layout_marginTop="31dp"
+        android:text="BACK" />
+
+    <TextView
+        android:id="@+id/viewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/reg" />
+
+</RelativeLayout>
